@@ -1,0 +1,10 @@
+/data/hz_data/github/itrustee_client_lk/build/CMakeFiles/clean.dir
+/data/hz_data/github/itrustee_client_lk/build/CMakeFiles/edit_cache.dir
+/data/hz_data/github/itrustee_client_lk/build/CMakeFiles/rebuild_cache.dir
+/data/hz_data/github/itrustee_client_lk/build/src/teecd/CMakeFiles/teec.dir
+/data/hz_data/github/itrustee_client_lk/build/src/teecd/CMakeFiles/teecd.dir
+/data/hz_data/github/itrustee_client_lk/build/src/teecd/CMakeFiles/edit_cache.dir
+/data/hz_data/github/itrustee_client_lk/build/src/teecd/CMakeFiles/rebuild_cache.dir
+/data/hz_data/github/itrustee_client_lk/build/src/tlogcat/CMakeFiles/tlogcat.dir
+/data/hz_data/github/itrustee_client_lk/build/src/tlogcat/CMakeFiles/edit_cache.dir
+/data/hz_data/github/itrustee_client_lk/build/src/tlogcat/CMakeFiles/rebuild_cache.dir

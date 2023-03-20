@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="test_kp_tee" targetName="encrypt_card_clean" />
+      <config projectName="test_kp_tee" targetName="encrypt_card" />
+      <config projectName="test_kp_tee" targetName="nvx_tlogcat" />
+      <config projectName="test_kp_tee" targetName="multi-core-ta1" />
+      <config projectName="test_kp_tee" targetName="nvx_boundscheck" />
+      <config projectName="test_kp_tee" targetName="combine" />
+      <config projectName="test_kp_tee" targetName="nvx_soft_sdf_crypto" />
+      <config projectName="test_kp_tee" targetName="nvx_teec" />
+      <config projectName="test_kp_tee" targetName="nvx_teecd" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug-10.80" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="10.80" GENERATION_OPTIONS="-DCMAKE_INSTALL_PREFIX=/home/tee_install/rsa" />
+      <configuration PROFILE_NAME="Debug-10.80-event-trace" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="10.80" GENERATION_OPTIONS="-DCMAKE_INSTALL_PREFIX=/home/tee_install/rsa --profiling-format=google-trace --profiling-output=CMakeFiles/clion-event-trace.json" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a2e526e-e3b0-437d-aa2d-a693778baf3a" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-10.80" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="2.1" />
+  </component>
+  <component name="ProjectId" id="2MGNsv4gaEolNsUSZQzQRJM0ZY2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/gee/github/test_kp_tee/itrustee_client/libboundscheck/src&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;rsyncConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/itrustee_client/libboundscheck/src" />
+      <recent name="$PROJECT_DIR$/rsa/CA" />
+      <recent name="$PROJECT_DIR$/rsa/CA/encrypt_card" />
+      <recent name="$PROJECT_DIR$/itrustee_sdk/build/signtools" />
+      <recent name="$PROJECT_DIR$/rsa/TA" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/itrustee_client/src/teecd" />
+      <recent name="$PROJECT_DIR$/itrustee_client" />
+      <recent name="$PROJECT_DIR$/rsa/CA/encrypt_card/kp_tee_ca_include" />
+      <recent name="$PROJECT_DIR$/rsa/CA/encrypt_card/kp_tee_test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.combine">
+    <configuration name="combine" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test_kp_tee" TARGET_NAME="combine" CONFIG_NAME="Debug-10.80">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="encrypt_card" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test_kp_tee" TARGET_NAME="encrypt_card" CONFIG_NAME="Debug-10.80" RUN_TARGET_PROJECT_NAME="test_kp_tee" RUN_TARGET_NAME="encrypt_card">
+      <envs>
+        <env name="LD_LIBRARY_PATH" value="/data/hz_data/github/test_kp_tee/cmake-build-debug-1080/rsa/CA/encrypt_card" />
+      </envs>
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="encrypt_card_clean" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test_kp_tee" TARGET_NAME="encrypt_card_clean" CONFIG_NAME="Debug-10.80" RUN_TARGET_PROJECT_NAME="test_kp_tee" RUN_TARGET_NAME="encrypt_card_clean">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="multi-core-ta1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test_kp_tee" TARGET_NAME="multi-core-ta1" CONFIG_NAME="Debug-10.80" RUN_TARGET_PROJECT_NAME="test_kp_tee" RUN_TARGET_NAME="multi-core-ta1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nvx_boundscheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test_kp_tee" TARGET_NAME="nvx_boundscheck" CONFIG_NAME="Debug-10.80">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nvx_soft_sdf_crypto" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test_kp_tee" TARGET_NAME="nvx_soft_sdf_crypto" CONFIG_NAME="Debug-10.80">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nvx_teec" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test_kp_tee" TARGET_NAME="nvx_teec" CONFIG_NAME="Debug-10.80">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nvx_teecd" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test_kp_tee" TARGET_NAME="nvx_teecd" CONFIG_NAME="Debug-10.80" RUN_TARGET_PROJECT_NAME="test_kp_tee" RUN_TARGET_NAME="nvx_teecd">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nvx_tlogcat" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test_kp_tee" TARGET_NAME="nvx_tlogcat" CONFIG_NAME="Debug-10.80" RUN_TARGET_PROJECT_NAME="test_kp_tee" RUN_TARGET_NAME="nvx_tlogcat">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.nvx_teec" />
+      <item itemvalue="CMake Application.nvx_teecd" />
+      <item itemvalue="CMake Application.nvx_tlogcat" />
+      <item itemvalue="CMake Application.nvx_boundscheck" />
+      <item itemvalue="CMake Application.encrypt_card" />
+      <item itemvalue="CMake Application.encrypt_card_clean" />
+      <item itemvalue="CMake Application.multi-core-ta1" />
+      <item itemvalue="CMake Application.nvx_soft_sdf_crypto" />
+      <item itemvalue="CMake Application.combine" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a2e526e-e3b0-437d-aa2d-a693778baf3a" name="Changes" comment="" />
+      <created>1677390169900</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677390169900</updated>
+      <workItem from="1677390174603" duration="22197000" />
+      <workItem from="1677466369581" duration="1539000" />
+      <workItem from="1677481358324" duration="3861000" />
+      <workItem from="1677492218696" duration="1454000" />
+      <workItem from="1677568416116" duration="866000" />
+      <workItem from="1677573655819" duration="2325000" />
+      <workItem from="1677751560541" duration="4820000" />
+      <workItem from="1678068864330" duration="27611000" />
+      <workItem from="1678102694855" duration="10375000" />
+      <workItem from="1678158565419" duration="28068000" />
+      <workItem from="1678255163115" duration="5660000" />
+      <workItem from="1678263909293" duration="1965000" />
+      <workItem from="1678270217944" duration="15675000" />
+      <workItem from="1678348315716" duration="12299000" />
+      <workItem from="1678689013719" duration="3300000" />
+      <workItem from="1678693337271" duration="2046000" />
+      <workItem from="1678700054578" duration="1804000" />
+      <workItem from="1678761906721" duration="2892000" />
+      <workItem from="1678793867355" duration="729000" />
+      <workItem from="1678795341067" duration="6956000" />
+      <workItem from="1678878015789" duration="4052000" />
+      <workItem from="1678955023030" duration="952000" />
+      <workItem from="1679052857855" duration="2349000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/rsa/CA/encrypt_card/encryption_card.h</url>
+          <line>196</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

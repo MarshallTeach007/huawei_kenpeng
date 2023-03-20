@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/tlogcat.dir/proc_tag.c.o CMakeFiles/tlogcat.dir/sys_syslog_cfg.c.o CMakeFiles/tlogcat.dir/tarzip.c.o CMakeFiles/tlogcat.dir/tlogcat.c.o -o tlogcat   -L/data/hz_data/github/itrustee_client_lk/libboundscheck/lib  -Wl,-rpath,/data/hz_data/github/itrustee_client_lk/libboundscheck/lib -lboundscheck -lz 

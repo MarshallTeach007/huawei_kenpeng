@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="10.80 (dab5fbfc-7ed1-4aeb-8f50-828992cff8a8)" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="10.80 (dab5fbfc-7ed1-4aeb-8f50-828992cff8a8)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data/hz_data/github/test_kp_tee" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-1080" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-1080-event-trace" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="45-22 (cc3fe0f0-a47c-42d4-9137-ed07c905b688)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/tmp.37ahPqLJ6I" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
